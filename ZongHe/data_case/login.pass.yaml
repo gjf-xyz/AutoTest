@@ -1,0 +1,6 @@
+
+- casedata: {"mobilephone":13745241568,"pwd":"123456abc"}
+  expect: {"status":"1","code":"10001","msg":"登录成功"}
+
+- casedata: {"mobilephone":15012345678,"pwd":"123456"}
+  expect: {"status":"1","code":"10001","msg":"登录成功"}

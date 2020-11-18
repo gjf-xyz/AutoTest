@@ -1,0 +1,7 @@
+
+
+- casedata: {"mobilephone":12345678912,"pwd":"12345"}
+  expect: {"status":0,"code":"20111","msg":"用户名或者密码错误"}
+
+- casedata: {"mobilephone":123456789,"pwd":"qwerty"}
+  expect: {"status":0,"code":"20111","msg":"用户名或者密码错误"}
